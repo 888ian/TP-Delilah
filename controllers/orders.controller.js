@@ -12,4 +12,16 @@ const getOrders = async (req, res) => {
   }
 };
 
+/*const createOrder (
+  const {
+    username,
+    name_surename,
+    email,
+    phone,
+    adress,
+    pass,
+    id_rol,
+  } = req.body;
+)*/
+
 exports.getOrders = getOrders;
